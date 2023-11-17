@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import Container from '@/shared/container/index.vue'
-import Logo from '@/shared/logo/index.vue'
-import Button from '@/shared/button/index.vue'
-import Icon from '@/shared/icon/index.vue'
+import { Container } from '@/shared/container'
+import { Logo } from '@/shared/logo'
+import { Button } from '@/shared/button'
+import { Icon } from '@/shared/icon'
 </script>
 
 <template>
@@ -35,7 +35,7 @@ import Icon from '@/shared/icon/index.vue'
   align-items: center;
   height: 72px;
 }
-.header__catalog{
+.header__catalog {
   width: 140px;
 }
 </style>
